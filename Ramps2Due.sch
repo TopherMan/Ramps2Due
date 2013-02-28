@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 28 Feb 2013 03:48:15 PM EST
+EESchema Schematic File Version 2  date Thu 28 Feb 2013 05:09:04 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -53,6 +53,16 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L LOGO_OSHW M1
+U 1 1 512FD565
+P 7250 4600
+F 0 "M1" H 7250 4750 60  0000 C CNN
+F 1 "LOGO_OSHW" H 7250 4500 60  0000 C CNN
+F 2 "OSHW_logo_2" H 7150 4650 60  0000 C CNN
+	1    7250 4600
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	1000 4800 1150 4800
 Wire Wire Line

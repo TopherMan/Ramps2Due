@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Thu 28 Feb 2013 03:48:36 PM EST
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Thu 28 Feb 2013 05:09:11 PM EST
 
 BeginCmp
 TimeStamp = /512E9C84;
@@ -117,6 +117,13 @@ TimeStamp = /512F9A4B;
 Reference = J15;
 ValeurCmp = HEADER_7;
 IdModule  = PIN_ARRAY_7X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /512FD565;
+Reference = M1;
+ValeurCmp = LOGO_OSHW;
+IdModule  = OSHW_logo_2;
 EndCmp
 
 BeginCmp
