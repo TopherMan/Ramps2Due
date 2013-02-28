@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Thu 28 Feb 2013 01:51:13 PM EST
+# EESchema Netlist Version 1.1 created  Thu 28 Feb 2013 03:48:36 PM EST
 (
  ( /512E9C84 SM0805 C1 100n
   ( 1 +3.3V )
@@ -8,7 +8,7 @@
   ( 1 +5V )
   ( 2 GND )
  )
- ( /512E951A PIN_ARRAY_1X2_SM J1 HEADER_2
+ ( /512E951A PIN_ARRAY_1X2_SM_B J1 HEADER_2
   ( 1 +5V )
   ( 2 +5V )
  )
@@ -20,7 +20,7 @@
   ( 5 ? )
   ( 6 GND )
  )
- ( /512E917A PIN_ARRAY_8x1_SM J3 HEADER_8
+ ( /512E917A PIN_ARRAY_8x1_SM_B J3 HEADER_8
   ( 1 /RFU1 )
   ( 2 /IOREF )
   ( 3 /RESET )
@@ -28,7 +28,7 @@
   ( 5 +5V )
   ( 6 GND )
   ( 7 GND )
-  ( 8 ? )
+  ( 8 V_IN )
  )
  ( /512E8F11 PIN_ARRAY_8x1 J4 HEADER_8
   ( 1 ? )
@@ -86,7 +86,7 @@
   ( 33 GND )
   ( 34 GND )
  )
- ( /512E91A6 PIN_ARRAY_10x1_SM J7 HEADER_10
+ ( /512E91A6 PIN_ARRAY_10x1_SM_B J7 HEADER_10
   ( 1 /SCL1 )
   ( 2 /SDA1 )
   ( 3 /AREF )
@@ -98,7 +98,7 @@
   ( 9 FET2 )
   ( 10 FET3 )
  )
- ( /512E9184 PIN_ARRAY_8x1_SM J8 HEADER_8
+ ( /512E9184 PIN_ARRAY_8x1_SM_B J8 HEADER_8
   ( 1 /D7 )
   ( 2 SER2 )
   ( 3 SER3 )
@@ -108,7 +108,7 @@
   ( 7 UART_TX )
   ( 8 UART_RX )
  )
- ( /512E9195 PIN_ARRAY_8x1_SM J9 HEADER_8
+ ( /512E9195 PIN_ARRAY_8x1_SM_B J9 HEADER_8
   ( 1 Y-MIN )
   ( 2 Y-MAX )
   ( 3 D16 )
@@ -130,7 +130,7 @@
   ( 5 +3.3V )
   ( 6 GND )
   ( 7 GND )
-  ( 8 +12V )
+  ( 8 V_IN )
  )
  ( /512E96D6 PIN_ARRAY_10x1_SM J12 HEADER_10
   ( 1 /SCL1 )
@@ -141,8 +141,8 @@
   ( 6 /PS-ON )
   ( 7 SER1 )
   ( 8 RAMPS_FET1 )
-  ( 9 ? )
-  ( 10 ? )
+  ( 9 RAMPS_FET2 )
+  ( 10 RAMPS_FET3 )
  )
  ( /512E96DA PIN_ARRAY_8x1_SM J13 HEADER_8
   ( 1 /D7 )
@@ -159,8 +159,8 @@
   ( 2 RAMPS_Y-MAX )
   ( 3 D16 )
   ( 4 D17 )
-  ( 5 ? )
-  ( 6 ? )
+  ( 5 RAMPS_Z-MIN )
+  ( 6 RAMPS_Z-MAX )
   ( 7 SDA )
   ( 8 SCL )
  )
@@ -174,62 +174,62 @@
   ( 7 CS )
  )
  ( /512E9DA7 SM0805 R1 1k
-  ( 1 N-000100 )
+  ( 1 N-000095 )
   ( 2 FET1 )
  )
  ( /512E9D85 SM0805 R2 1k
-  ( 1 N-000096 )
+  ( 1 N-000101 )
   ( 2 FET2 )
  )
  ( /512E9DAF SM0805 R3 1k
-  ( 1 N-000101 )
+  ( 1 N-000096 )
   ( 2 FET3 )
  )
  ( /512E9B0F SSOP20 U1 TXS0108
   ( 1 X-MIN )
   ( 2 +3.3V )
   ( 3 X-MAX )
-  ( 4 Y-MIN )
-  ( 5 Y-MAX )
-  ( 6 Z-MIN )
-  ( 7 Z-MAX )
-  ( 8 UART_TX )
-  ( 9 UART_RX )
+  ( 4 UART_TX )
+  ( 5 UART_RX )
+  ( 6 Y-MIN )
+  ( 7 Y-MAX )
+  ( 8 Z-MIN )
+  ( 9 Z-MAX )
   ( 10 +3.3V )
   ( 11 GND )
-  ( 12 RAMPS_UART_RX )
-  ( 13 RAMPS_UART_TX )
-  ( 14 RAMPS_X-MAX )
-  ( 15 RAMPS_X-MIN )
-  ( 16 RAMPS_Y-MAX )
-  ( 17 RAMPS_Y-MIN )
+  ( 12 RAMPS_Z-MAX )
+  ( 13 RAMPS_Z-MIN )
+  ( 14 RAMPS_Y-MAX )
+  ( 15 RAMPS_Y-MIN )
+  ( 16 RAMPS_UART_RX )
+  ( 17 RAMPS_UART_TX )
   ( 18 RAMPS_X-MAX )
   ( 19 +5V )
   ( 20 RAMPS_X-MIN )
  )
  ( /512E9D60 SOT23_6 U2 ZXGD3005E6
-  ( 1 +12V )
-  ( 2 N-000100 )
+  ( 1 V_IN )
+  ( 2 N-000095 )
   ( 3 GND )
   ( 4 RAMPS_FET1 )
   ( 5 ? )
   ( 6 RAMPS_FET1 )
  )
  ( /512E9D6C SOT23_6 U3 ZXGD3005E6
-  ( 1 +12V )
-  ( 2 N-000096 )
-  ( 3 GND )
-  ( 4 RAMPS_FET1 )
-  ( 5 ? )
-  ( 6 RAMPS_FET1 )
- )
- ( /512E9D71 SOT23_6 U4 ZXGD3005E6
-  ( 1 +12V )
+  ( 1 V_IN )
   ( 2 N-000101 )
   ( 3 GND )
-  ( 4 RAMPS_FET1 )
+  ( 4 RAMPS_FET2 )
   ( 5 ? )
-  ( 6 RAMPS_FET1 )
+  ( 6 RAMPS_FET2 )
+ )
+ ( /512E9D71 SOT23_6 U4 ZXGD3005E6
+  ( 1 V_IN )
+  ( 2 N-000096 )
+  ( 3 GND )
+  ( 4 RAMPS_FET3 )
+  ( 5 ? )
+  ( 6 RAMPS_FET3 )
  )
 )
 *
