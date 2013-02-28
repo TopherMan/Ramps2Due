@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Thu 28 Feb 2013 01:37:01 PM EST
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Thu 28 Feb 2013 01:51:13 PM EST
 
 BeginCmp
 TimeStamp = /512E9C84;
@@ -18,7 +18,7 @@ BeginCmp
 TimeStamp = /512E951A;
 Reference = J1;
 ValeurCmp = HEADER_2;
-IdModule  = ;
+IdModule  = PIN_ARRAY_1X2_SM;
 EndCmp
 
 BeginCmp
@@ -53,7 +53,7 @@ BeginCmp
 TimeStamp = /512E8F43;
 Reference = J6;
 ValeurCmp = HEADER_17X2;
-IdModule  = ;
+IdModule  = PIN_ARRAY_17X2;
 EndCmp
 
 BeginCmp
@@ -81,7 +81,7 @@ BeginCmp
 TimeStamp = /512E96F5;
 Reference = J10;
 ValeurCmp = HEADER_2;
-IdModule  = ;
+IdModule  = PIN_ARRAY_1X2_SM;
 EndCmp
 
 BeginCmp
@@ -116,7 +116,7 @@ BeginCmp
 TimeStamp = /512F9A4B;
 Reference = J15;
 ValeurCmp = HEADER_7;
-IdModule  = ;
+IdModule  = PIN_ARRAY_7X1;
 EndCmp
 
 BeginCmp
