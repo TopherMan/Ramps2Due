@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 28 Feb 2013 01:18:39 PM EST
+EESchema Schematic File Version 2  date Thu 28 Feb 2013 02:57:34 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -512,9 +512,9 @@ Mosfets and Power
 Text Notes 3850 5050 0    120  ~ 0
 Logic Level Converter
 Text GLabel 8700 3500 2    60   Input ~ 0
-RAMPS_FET1
+RAMPS_FET3
 Text GLabel 8700 2550 2    60   Input ~ 0
-RAMPS_FET1
+RAMPS_FET2
 Text GLabel 8750 1600 2    60   Input ~ 0
 RAMPS_FET1
 Text GLabel 6650 3500 0    60   Input ~ 0
