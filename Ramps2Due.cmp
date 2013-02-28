@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Thu 28 Feb 2013 01:10:49 PM EST
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Thu 28 Feb 2013 01:37:01 PM EST
 
 BeginCmp
 TimeStamp = /512E9C84;
@@ -32,21 +32,21 @@ BeginCmp
 TimeStamp = /512E917A;
 Reference = J3;
 ValeurCmp = HEADER_8;
-IdModule  = ;
+IdModule  = PIN_ARRAY_8x1_SM;
 EndCmp
 
 BeginCmp
 TimeStamp = /512E8F11;
 Reference = J4;
 ValeurCmp = HEADER_8;
-IdModule  = ;
+IdModule  = PIN_ARRAY_8x1;
 EndCmp
 
 BeginCmp
 TimeStamp = /512E8F1A;
 Reference = J5;
 ValeurCmp = HEADER_8;
-IdModule  = ;
+IdModule  = PIN_ARRAY_8x1;
 EndCmp
 
 BeginCmp
@@ -60,21 +60,21 @@ BeginCmp
 TimeStamp = /512E91A6;
 Reference = J7;
 ValeurCmp = HEADER_10;
-IdModule  = ;
+IdModule  = PIN_ARRAY_10x1_SM;
 EndCmp
 
 BeginCmp
 TimeStamp = /512E9184;
 Reference = J8;
 ValeurCmp = HEADER_8;
-IdModule  = ;
+IdModule  = PIN_ARRAY_8x1_SM;
 EndCmp
 
 BeginCmp
 TimeStamp = /512E9195;
 Reference = J9;
 ValeurCmp = HEADER_8;
-IdModule  = ;
+IdModule  = PIN_ARRAY_8x1_SM;
 EndCmp
 
 BeginCmp
@@ -88,28 +88,28 @@ BeginCmp
 TimeStamp = /512E96CD;
 Reference = J11;
 ValeurCmp = HEADER_8;
-IdModule  = ;
+IdModule  = PIN_ARRAY_8x1_SM;
 EndCmp
 
 BeginCmp
 TimeStamp = /512E96D6;
 Reference = J12;
 ValeurCmp = HEADER_10;
-IdModule  = ;
+IdModule  = PIN_ARRAY_10x1_SM;
 EndCmp
 
 BeginCmp
 TimeStamp = /512E96DA;
 Reference = J13;
 ValeurCmp = HEADER_8;
-IdModule  = ;
+IdModule  = PIN_ARRAY_8x1_SM;
 EndCmp
 
 BeginCmp
 TimeStamp = /512E96E7;
 Reference = J14;
 ValeurCmp = HEADER_8;
-IdModule  = ;
+IdModule  = PIN_ARRAY_8x1_SM;
 EndCmp
 
 BeginCmp
