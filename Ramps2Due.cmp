@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Thu 28 Feb 2013 01:51:13 PM EST
+Cmp-Mod V01 Genere par PcbNew le Thu 28 Feb 2013 02:12:35 PM EST
 
 BeginCmp
 TimeStamp = /512E9C84;
@@ -18,7 +18,7 @@ BeginCmp
 TimeStamp = /512E951A;
 Reference = J1;
 ValeurCmp = HEADER_2;
-IdModule  = PIN_ARRAY_1X2_SM;
+IdModule  = PIN_ARRAY_1X2_SM_B;
 EndCmp
 
 BeginCmp
@@ -32,7 +32,7 @@ BeginCmp
 TimeStamp = /512E917A;
 Reference = J3;
 ValeurCmp = HEADER_8;
-IdModule  = PIN_ARRAY_8x1_SM;
+IdModule  = PIN_ARRAY_8x1_SM_B;
 EndCmp
 
 BeginCmp
@@ -60,28 +60,28 @@ BeginCmp
 TimeStamp = /512E91A6;
 Reference = J7;
 ValeurCmp = HEADER_10;
-IdModule  = PIN_ARRAY_10x1_SM;
+IdModule  = PIN_ARRAY_10x1_SM_B;
 EndCmp
 
 BeginCmp
 TimeStamp = /512E9184;
 Reference = J8;
 ValeurCmp = HEADER_8;
-IdModule  = PIN_ARRAY_8x1_SM;
+IdModule  = PIN_ARRAY_8x1_SM_B;
 EndCmp
 
 BeginCmp
 TimeStamp = /512E9195;
 Reference = J9;
 ValeurCmp = HEADER_8;
-IdModule  = PIN_ARRAY_8x1_SM;
+IdModule  = PIN_ARRAY_8x1_SM_B;
 EndCmp
 
 BeginCmp
 TimeStamp = /512E96F5;
 Reference = J10;
 ValeurCmp = HEADER_2;
-IdModule  = PIN_ARRAY_1X2_SM;
+IdModule  = PIN_ARRAY_1X2_SM_B;
 EndCmp
 
 BeginCmp

@@ -1,4 +1,4 @@
-update=Thu 28 Feb 2013 01:40:59 PM EST
+update=Thu 28 Feb 2013 01:54:28 PM EST
 version=1
 last_client=pcbnew
 [general]
@@ -95,7 +95,7 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=150
-LastNetListRead=
+LastNetListRead=Ramps2Due.net
 [pcbnew/libraries]
 LibDir=
 LibName1=sockets
