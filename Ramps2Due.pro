@@ -1,16 +1,6 @@
-update=Wed 27 Feb 2013 07:38:49 PM EST
+update=Thu 28 Feb 2013 01:19:57 PM EST
 version=1
 last_client=eeschema
-[cvpcb]
-version=1
-NetITyp=0
-NetIExt=.net
-PkgIExt=.pkg
-NetDir=
-LibDir=
-NetType=0
-[cvpcb/libraries]
-EquName1=devcms
 [pcbnew]
 version=1
 PadDrlX=320
@@ -66,7 +56,6 @@ MaxLnkS=3
 ShowRat=0
 ShowMRa=1
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -77,8 +66,16 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
+LibName11=KiCAD_Libraries/modules/opendous
+LibName12=KiCAD_Libraries/modules/RMC
+LibDir=
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=/home/chris/gitspace/Ramps2Due/KiCAD_Libraries/walter/eesch
