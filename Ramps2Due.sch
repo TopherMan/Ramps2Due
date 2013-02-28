@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 27 Feb 2013 07:11:08 PM EST
+EESchema Schematic File Version 2  date Wed 27 Feb 2013 07:35:09 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -52,10 +52,27 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 7500 800  0    120  ~ 0
-Mosfets and Power
-Text Notes 3850 5050 0    120  ~ 0
-Logic Level Converter
+NoConn ~ 2550 2700
+NoConn ~ 2550 2600
+NoConn ~ 2550 2500
+NoConn ~ 2550 2400
+NoConn ~ 2550 2300
+NoConn ~ 2550 2200
+NoConn ~ 2550 2100
+NoConn ~ 2550 2000
+NoConn ~ 2550 1900
+NoConn ~ 2550 1800
+NoConn ~ 2550 1700
+NoConn ~ 2550 1600
+NoConn ~ 2550 1500
+NoConn ~ 2550 1400
+NoConn ~ 2550 1300
+NoConn ~ 2550 1200
+NoConn ~ 2250 1200
+Wire Wire Line
+	1950 2900 1950 2800
+Wire Wire Line
+	1950 2800 2250 2800
 Wire Notes Line
 	6300 4800 3400 4800
 Wire Wire Line
@@ -387,6 +404,47 @@ Wire Wire Line
 	7500 1850 7500 1700
 Wire Wire Line
 	7500 2650 7500 2900
+Wire Wire Line
+	2550 2800 2850 2800
+Wire Wire Line
+	2850 2800 2850 2900
+NoConn ~ 2250 1300
+NoConn ~ 2250 1400
+NoConn ~ 2250 1500
+NoConn ~ 2250 1600
+NoConn ~ 2250 1700
+NoConn ~ 2250 1800
+NoConn ~ 2250 1900
+NoConn ~ 2250 2000
+NoConn ~ 2250 2100
+NoConn ~ 2250 2200
+NoConn ~ 2250 2300
+NoConn ~ 2250 2400
+NoConn ~ 2250 2500
+NoConn ~ 2250 2600
+NoConn ~ 2250 2700
+$Comp
+L GND #PWR?
+U 1 1 512EA2D9
+P 2850 2900
+F 0 "#PWR?" H 2850 2900 30  0001 C CNN
+F 1 "GND" H 2850 2830 30  0001 C CNN
+	1    2850 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 512EA2D5
+P 1950 2900
+F 0 "#PWR?" H 1950 2900 30  0001 C CNN
+F 1 "GND" H 1950 2830 30  0001 C CNN
+	1    1950 2900
+	1    0    0    -1  
+$EndComp
+Text Notes 7500 800  0    120  ~ 0
+Mosfets and Power
+Text Notes 3850 5050 0    120  ~ 0
+Logic Level Converter
 Text GLabel 8700 3500 2    60   Input ~ 0
 RAMPS_FET1
 Text GLabel 8700 2550 2    60   Input ~ 0
@@ -458,7 +516,7 @@ L R R?
 U 1 1 512E9DAF
 P 7050 3500
 F 0 "R?" V 7130 3500 50  0000 C CNN
-F 1 "R" V 7050 3500 50  0000 C CNN
+F 1 "1k" V 7050 3500 50  0000 C CNN
 	1    7050 3500
 	0    1    1    0   
 $EndComp
@@ -467,7 +525,7 @@ L R R?
 U 1 1 512E9DA7
 P 7050 1600
 F 0 "R?" V 7130 1600 50  0000 C CNN
-F 1 "R" V 7050 1600 50  0000 C CNN
+F 1 "1k" V 7050 1600 50  0000 C CNN
 	1    7050 1600
 	0    1    1    0   
 $EndComp
@@ -476,7 +534,7 @@ L R R?
 U 1 1 512E9D85
 P 7050 2550
 F 0 "R?" V 7130 2550 50  0000 C CNN
-F 1 "R" V 7050 2550 50  0000 C CNN
+F 1 "1k" V 7050 2550 50  0000 C CNN
 	1    7050 2550
 	0    1    1    0   
 $EndComp
@@ -551,7 +609,7 @@ L C C?
 U 1 1 512E9C8C
 P 10450 2400
 F 0 "C?" H 10500 2500 50  0000 L CNN
-F 1 "C" H 10500 2300 50  0000 L CNN
+F 1 "100n" H 10500 2300 50  0000 L CNN
 	1    10450 2400
 	1    0    0    -1  
 $EndComp
@@ -560,7 +618,7 @@ L C C?
 U 1 1 512E9C84
 P 10050 2400
 F 0 "C?" H 10100 2500 50  0000 L CNN
-F 1 "C" H 10100 2300 50  0000 L CNN
+F 1 "100n" H 10100 2300 50  0000 L CNN
 	1    10050 2400
 	1    0    0    -1  
 $EndComp

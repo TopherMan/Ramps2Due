@@ -1,7 +1,7 @@
 Overview
 ========
 This is a converter board allowing a RAMPS 1.4 to be plugged into an Arduino Due. Additionally, since the Due has moved the MOSI/MISO to the SPI pins and the SD RAMPS card has integrated level shifters that are no longer necessary, it will integrate a simple SD card reader.
-This is based on bobc's RIB found [here](https://github.com/bobc/bobc_hardware/tree/master/RAMPS-FD)
+This is based on bobc's RIB found [here](https://github.com/bobc/bobc_hardware/tree/master/RAMPS-FD).
 
 Features
 --------
