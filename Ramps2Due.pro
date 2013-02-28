@@ -1,6 +1,6 @@
-update=Wed 27 Feb 2013 07:11:03 PM EST
+update=Wed 27 Feb 2013 07:38:49 PM EST
 version=1
-last_client=kicad
+last_client=eeschema
 [cvpcb]
 version=1
 NetITyp=0
@@ -77,6 +77,8 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=/home/chris/gitspace/Ramps2Due/KiCAD_Libraries/walter/eesch
@@ -147,5 +149,4 @@ LibName35=w_microcontrollers
 LibName36=w_opto
 LibName37=w_rtx
 LibName38=KiCAD_Libraries/library/RMC
-[general]
-version=1
+LibName39=KiCAD_Libraries/library/opendous
