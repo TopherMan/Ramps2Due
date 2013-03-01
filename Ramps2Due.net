@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Thu 28 Feb 2013 05:09:11 PM EST
+# EESchema Netlist Version 1.1 created  Fri 01 Mar 2013 05:25:51 PM EST
 (
  ( /512E9C84 SM0805 C1 100n
   ( 1 +3.3V )
@@ -173,18 +173,22 @@
   ( 6 MOSI )
   ( 7 CS )
  )
+ ( /51312A9D PIN_ARRAY_2X1 J16 HEADER_2
+  ( 1 +5V )
+  ( 2 +5V )
+ )
  ( /512FD565 OSHW_logo_2 M1 LOGO_OSHW
  )
  ( /512E9DA7 SM0805 R1 1k
-  ( 1 N-000095 )
+  ( 1 N-000096 )
   ( 2 FET1 )
  )
  ( /512E9D85 SM0805 R2 1k
-  ( 1 N-000101 )
+  ( 1 N-000100 )
   ( 2 FET2 )
  )
  ( /512E9DAF SM0805 R3 1k
-  ( 1 N-000096 )
+  ( 1 N-000097 )
   ( 2 FET3 )
  )
  ( /512E9B0F SSOP20 U1 TXS0108
@@ -211,7 +215,7 @@
  )
  ( /512E9D60 SOT23_6 U2 ZXGD3005E6
   ( 1 V_IN )
-  ( 2 N-000095 )
+  ( 2 N-000096 )
   ( 3 GND )
   ( 4 RAMPS_FET1 )
   ( 5 ? )
@@ -219,7 +223,7 @@
  )
  ( /512E9D6C SOT23_6 U3 ZXGD3005E6
   ( 1 V_IN )
-  ( 2 N-000101 )
+  ( 2 N-000100 )
   ( 3 GND )
   ( 4 RAMPS_FET2 )
   ( 5 ? )
@@ -227,7 +231,7 @@
  )
  ( /512E9D71 SOT23_6 U4 ZXGD3005E6
   ( 1 V_IN )
-  ( 2 N-000096 )
+  ( 2 N-000097 )
   ( 3 GND )
   ( 4 RAMPS_FET3 )
   ( 5 ? )
