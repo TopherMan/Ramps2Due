@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Thu 28 Feb 2013 05:19:38 PM EST
+PCBNEW-BOARD Version 1 date Fri 01 Mar 2013 09:48:57 AM EST
 
 # Created by Pcbnew(2011-05-25)-stable
 
@@ -21,7 +21,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A4 11700 8267
 Title ""
-Date "28 feb 2013"
+Date "1 mar 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -55,12 +55,12 @@ TextPcbSize 600 800
 EdgeModWidth 150
 TextModSize 600 600
 TextModWidth 120
-PadSize 600 600
-PadDrill 320
+PadSize 600 1181
+PadDrill 0
 Pad2MaskClearance 100
 GridOrigin 29000 55500
-AuxiliaryAxisOrg 0 0
-PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+AuxiliaryAxisOrg 29000 55500
+PcbPlotParams (pcbplotparams (layerselection 15761409) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin true) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
 $EndSETUP
 
 $EQUIPOT
@@ -1805,11 +1805,11 @@ Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  PIN_ARRAY_10x1_SM
 $MODULE PIN_ARRAY_1X2_SM_B
-Po 60500 34000 900 15 512FA9A8 512FBA57 ~~
+Po 60500 34000 900 15 5130BEEE 5130BDFF ~~
 Li PIN_ARRAY_1X2_SM_B
 Cd Double rangee de contacts 2 x 1 sockets
 Kw CONN
-Sc 512FBA57
+Sc 5130BDFF
 AR /512E951A
 Op 0 0 0
 T0 0 -2756 400 400 900 100 N V 21 N "J1"
@@ -1821,14 +1821,14 @@ DS -476 1772 -476 -1772 120 21
 $PAD
 Sh "1" R 600 1181 0 0 900
 Dr 0 0 0
-At SMD N 00880001
+At SMD N 00440001
 Ne 2 "+5V"
 Po 0 1000
 $EndPAD
 $PAD
 Sh "2" R 600 1181 0 0 900
 Dr 0 0 0
-At SMD N 00880001
+At SMD N 00440001
 Ne 2 "+5V"
 Po 0 -1000
 $EndPAD
@@ -1840,7 +1840,7 @@ Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  PIN_ARRAY_1X2_SM_B
 $MODULE PIN_ARRAY_8x1_SM_B
-Po 37500 53000 0 15 512FAB7F 512FBA54 ~~
+Po 37500 53000 0 15 5130BF2B 512FBA54 ~~
 Li PIN_ARRAY_8x1_SM_B
 Cd Connecteur 8 pins
 Kw CONN DEV
@@ -1859,56 +1859,56 @@ DS 4000 1500 -4000 1500 120 21
 $PAD
 Sh "1" R 600 1181 0 0 0
 Dr 0 0 0
-At SMD N 00880001
+At SMD N 00440001
 Ne 9 "/RFU1"
 Po -3500 750
 $EndPAD
 $PAD
 Sh "2" R 600 1181 0 0 0
 Dr 0 0 0
-At SMD N 00880001
+At SMD N 00440001
 Ne 5 "/IOREF"
 Po -2500 -750
 $EndPAD
 $PAD
 Sh "3" R 600 1181 0 0 0
 Dr 0 0 0
-At SMD N 00880001
+At SMD N 00440001
 Ne 8 "/RESET"
 Po -1500 750
 $EndPAD
 $PAD
 Sh "4" R 600 1181 0 0 0
 Dr 0 0 0
-At SMD N 00880001
+At SMD N 00440001
 Ne 1 "+3.3V"
 Po -500 -750
 $EndPAD
 $PAD
 Sh "5" R 600 1181 0 0 0
 Dr 0 0 0
-At SMD N 00880001
+At SMD N 00440001
 Ne 2 "+5V"
 Po 500 750
 $EndPAD
 $PAD
 Sh "6" R 600 1181 0 0 0
 Dr 0 0 0
-At SMD N 00880001
+At SMD N 00440001
 Ne 19 "GND"
 Po 1500 -750
 $EndPAD
 $PAD
 Sh "7" R 600 1181 0 0 0
 Dr 0 0 0
-At SMD N 00880001
+At SMD N 00440001
 Ne 19 "GND"
 Po 2500 750
 $EndPAD
 $PAD
 Sh "8" R 600 1181 0 0 0
 Dr 0 0 0
-At SMD N 00880001
+At SMD N 00440001
 Ne 45 "V_IN"
 Po 3500 -750
 $EndPAD
@@ -1920,11 +1920,11 @@ Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  PIN_ARRAY_8x1_SM_B
 $MODULE PIN_ARRAY_8x1_SM_B
-Po 44500 34000 0 15 512FAB7F 512FBA51 ~~
+Po 44500 34000 0 15 5130BE4B 5130BE19 ~~
 Li PIN_ARRAY_8x1_SM_B
 Cd Connecteur 8 pins
 Kw CONN DEV
-Sc 512FBA51
+Sc 5130BE19
 AR /512E9184
 Op 0 0 0
 T0 250 -2000 400 400 0 80 N V 21 N "J8"
@@ -1939,56 +1939,56 @@ DS 4000 1500 -4000 1500 120 21
 $PAD
 Sh "1" R 600 1181 0 0 0
 Dr 0 0 0
-At SMD N 00880001
+At SMD N 00440001
 Ne 4 "/D7"
 Po -3500 750
 $EndPAD
 $PAD
 Sh "2" R 600 1181 0 0 0
 Dr 0 0 0
-At SMD N 00880001
+At SMD N 00440001
 Ne 40 "SER2"
 Po -2500 -750
 $EndPAD
 $PAD
 Sh "3" R 600 1181 0 0 0
 Dr 0 0 0
-At SMD N 00880001
+At SMD N 00440001
 Ne 41 "SER3"
 Po -1500 750
 $EndPAD
 $PAD
 Sh "4" R 600 1181 0 0 0
 Dr 0 0 0
-At SMD N 00880001
+At SMD N 00440001
 Ne 42 "SER4"
 Po -500 -750
 $EndPAD
 $PAD
 Sh "5" R 600 1181 0 0 0
 Dr 0 0 0
-At SMD N 00880001
+At SMD N 00440001
 Ne 47 "X-MIN"
 Po 500 750
 $EndPAD
 $PAD
 Sh "6" R 600 1181 0 0 0
 Dr 0 0 0
-At SMD N 00880001
+At SMD N 00440001
 Ne 46 "X-MAX"
 Po 1500 -750
 $EndPAD
 $PAD
 Sh "7" R 600 1181 0 0 0
 Dr 0 0 0
-At SMD N 00880001
+At SMD N 00440001
 Ne 44 "UART_TX"
 Po 2500 750
 $EndPAD
 $PAD
 Sh "8" R 600 1181 0 0 0
 Dr 0 0 0
-At SMD N 00880001
+At SMD N 00440001
 Ne 43 "UART_RX"
 Po 3500 -750
 $EndPAD
@@ -2000,7 +2000,7 @@ Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  PIN_ARRAY_8x1_SM_B
 $MODULE PIN_ARRAY_8x1_SM_B
-Po 54500 34000 0 15 512FAB7F 512FBA4E ~~
+Po 54500 34000 0 15 5130BD4C 512FBA4E ~~
 Li PIN_ARRAY_8x1_SM_B
 Cd Connecteur 8 pins
 Kw CONN DEV
@@ -2019,56 +2019,56 @@ DS 4000 1500 -4000 1500 120 21
 $PAD
 Sh "1" R 600 1181 0 0 0
 Dr 0 0 0
-At SMD N 00880001
+At SMD N 00440001
 Ne 49 "Y-MIN"
 Po -3500 750
 $EndPAD
 $PAD
 Sh "2" R 600 1181 0 0 0
 Dr 0 0 0
-At SMD N 00880001
+At SMD N 00480001
 Ne 48 "Y-MAX"
 Po -2500 -750
 $EndPAD
 $PAD
 Sh "3" R 600 1181 0 0 0
 Dr 0 0 0
-At SMD N 00880001
+At SMD N 00440001
 Ne 14 "D16"
 Po -1500 750
 $EndPAD
 $PAD
 Sh "4" R 600 1181 0 0 0
 Dr 0 0 0
-At SMD N 00880001
+At SMD N 00440001
 Ne 15 "D17"
 Po -500 -750
 $EndPAD
 $PAD
 Sh "5" R 600 1181 0 0 0
 Dr 0 0 0
-At SMD N 00880001
+At SMD N 00440001
 Ne 51 "Z-MIN"
 Po 500 750
 $EndPAD
 $PAD
 Sh "6" R 600 1181 0 0 0
 Dr 0 0 0
-At SMD N 00880001
+At SMD N 00440001
 Ne 50 "Z-MAX"
 Po 1500 -750
 $EndPAD
 $PAD
 Sh "7" R 600 1181 0 0 0
 Dr 0 0 0
-At SMD N 00880001
+At SMD N 00440001
 Ne 38 "SDA"
 Po 2500 750
 $EndPAD
 $PAD
 Sh "8" R 600 1181 0 0 0
 Dr 0 0 0
-At SMD N 00880001
+At SMD N 00440001
 Ne 37 "SCL"
 Po 3500 -750
 $EndPAD
@@ -2080,7 +2080,7 @@ Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  PIN_ARRAY_8x1_SM_B
 $MODULE PIN_ARRAY_10x1_SM_B
-Po 34900 34000 0 15 512FABF2 512FBA4B ~~
+Po 34900 34000 0 15 5130BEA1 512FBA4B ~~
 Li PIN_ARRAY_10x1_SM_B
 Cd Connecteur 10 pins
 Kw CONN DEV
@@ -2101,70 +2101,70 @@ DS 3000 1500 -5000 1500 120 21
 $PAD
 Sh "1" R 600 1181 0 0 0
 Dr 0 0 0
-At SMD N 00880001
+At SMD N 00440001
 Ne 10 "/SCL1"
 Po -4500 750
 $EndPAD
 $PAD
 Sh "2" R 600 1181 0 0 0
 Dr 0 0 0
-At SMD N 00880001
+At SMD N 00440001
 Ne 11 "/SDA1"
 Po -3500 -750
 $EndPAD
 $PAD
 Sh "3" R 600 1181 0 0 0
 Dr 0 0 0
-At SMD N 00880001
+At SMD N 00440001
 Ne 3 "/AREF"
 Po -2500 750
 $EndPAD
 $PAD
 Sh "4" R 600 1181 0 0 0
 Dr 0 0 0
-At SMD N 00880001
+At SMD N 00440001
 Ne 19 "GND"
 Po -1500 -750
 $EndPAD
 $PAD
 Sh "5" R 600 1181 0 0 0
 Dr 0 0 0
-At SMD N 00880001
+At SMD N 00440001
 Ne 6 "/LED"
 Po -500 750
 $EndPAD
 $PAD
 Sh "6" R 600 1181 0 0 0
 Dr 0 0 0
-At SMD N 00880001
+At SMD N 00440001
 Ne 7 "/PS-ON"
 Po 500 -750
 $EndPAD
 $PAD
 Sh "7" R 600 1181 0 0 0
 Dr 0 0 0
-At SMD N 00880001
+At SMD N 00440001
 Ne 39 "SER1"
 Po 1500 750
 $EndPAD
 $PAD
 Sh "8" R 600 1181 0 0 0
 Dr 0 0 0
-At SMD N 00880001
+At SMD N 00440001
 Ne 16 "FET1"
 Po 2500 -750
 $EndPAD
 $PAD
 Sh "9" R 600 1181 0 0 0
 Dr 0 0 0
-At SMD N 00880001
+At SMD N 00440001
 Ne 17 "FET2"
 Po 3500 750
 $EndPAD
 $PAD
 Sh "10" R 600 1181 0 0 0
 Dr 0 0 0
-At SMD N 00880001
+At SMD N 00440001
 Ne 18 "FET3"
 Po 4500 -750
 $EndPAD
