@@ -1,0 +1,17 @@
+Num	Ref		Name			Digikey Num
+1x      U1              Level Shifter --        296-23011-1-ND
+3x	U2,U3,U4	FETs -- 		ZXGD3005E6TADICT-ND
+3x	R1,R2,R3	Resistors (1k) -- 	P1.00KCCT-ND
+2x 	C1,C2		Capacitors (100n) --	445-7534-1-ND
+1x	J1 		2x2 SM Pins --		S2331E-02-ND
+1x	J2 		3x2 Thru HEADER --	S7071-ND
+3x	J3,J8,J9	8x1 SM Pins --		S1013E-08-ND
+2x	J4,J5 		8x1 Long Header --	have
+1x	J6 		16x2 Long Header --	SAM1204-08-ND
+1x	J7		10x1 SM Pins --		S1013E-10-ND
+1x	J10 		2x2 SM Header --	S5672-ND
+3x	J11,J13,J14 	8x1 SM Header --	SAM1148-08-ND
+1x	J12 		10x1 SM Header --	SAM1148-10-ND
+1x	J15 		7x1 Thru Header --	have
+1x	J16 		2x1 90deg Pins --	have
+1x			SD Card Breakout board from Sparkfun

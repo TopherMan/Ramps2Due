@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 01 Mar 2013 05:25:13 PM EST
+EESchema Schematic File Version 2  date Fri 01 Mar 2013 07:09:16 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -45,7 +45,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "1 mar 2013"
+Date "2 mar 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -53,6 +53,20 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	2250 2700 2100 2700
+Wire Wire Line
+	750  7150 500  7150
+Wire Wire Line
+	3250 3450 3050 3450
+Connection ~ 3350 3050
+Wire Wire Line
+	3350 3050 3350 2900
+Connection ~ 900  6750
+Wire Wire Line
+	750  7050 750  6750
+Wire Wire Line
+	750  6750 1050 6750
 Connection ~ 9950 3600
 Wire Wire Line
 	10100 3600 9950 3600
@@ -142,11 +156,6 @@ Wire Wire Line
 	5150 2900 4750 2900
 Wire Wire Line
 	5150 2700 4750 2700
-Connection ~ 3350 3000
-Wire Wire Line
-	3350 3000 3450 3000
-Wire Wire Line
-	3450 3000 3450 3150
 Wire Wire Line
 	4800 2100 5150 2100
 Wire Wire Line
@@ -178,8 +187,6 @@ Wire Wire Line
 	750  5650 950  5650
 Wire Wire Line
 	1400 5650 1250 5650
-Wire Wire Line
-	750  6900 750  6750
 Wire Wire Line
 	2100 7350 2350 7350
 Wire Wire Line
@@ -288,11 +295,6 @@ Wire Wire Line
 Wire Wire Line
 	2100 7450 2350 7450
 Wire Wire Line
-	850  6900 850  6750
-Wire Wire Line
-	850  6750 750  6750
-Connection ~ 800  6750
-Wire Wire Line
 	950  5750 850  5750
 Wire Wire Line
 	750  5550 950  5550
@@ -323,8 +325,6 @@ Wire Wire Line
 	4500 1800 5150 1800
 Wire Wire Line
 	5150 2000 4800 2000
-Wire Wire Line
-	3350 3150 3350 2900
 Wire Wire Line
 	4750 2600 5150 2600
 Wire Wire Line
@@ -404,8 +404,6 @@ Wire Wire Line
 Wire Wire Line
 	2850 2800 2850 2900
 Wire Wire Line
-	2550 2700 2750 2700
-Wire Wire Line
 	8200 6500 8200 5850
 Wire Wire Line
 	8200 5850 8700 5850
@@ -416,8 +414,6 @@ Wire Wire Line
 Wire Wire Line
 	8400 6250 8700 6250
 Wire Wire Line
-	2000 2700 2250 2700
-Wire Wire Line
 	7500 3200 7300 3200
 Wire Wire Line
 	7300 3200 7300 3150
@@ -427,6 +423,61 @@ Wire Wire Line
 	9950 3400 9950 3700
 Wire Wire Line
 	9950 3700 10100 3700
+Wire Wire Line
+	1050 6750 1050 7050
+Wire Wire Line
+	3550 3350 3550 3050
+Wire Wire Line
+	3550 3050 3250 3050
+Wire Wire Line
+	3250 3050 3250 3350
+Wire Wire Line
+	3550 3450 3650 3450
+Wire Wire Line
+	1050 7150 1150 7150
+Wire Wire Line
+	2700 2700 2550 2700
+Text Label 500  7150 0    60   ~ 0
+D22
+Text Label 1150 7150 0    60   ~ 0
+D23
+Text Label 3650 3450 0    60   ~ 0
+D23
+Text Label 3050 3450 0    60   ~ 0
+D22
+$Comp
+L HEADER_2X2 J1
+U 1 1 51313A3D
+P 900 7100
+F 0 "J1" H 900 7250 60  0000 C CNN
+F 1 "HEADER_2X2" H 900 6950 60  0000 C CNN
+	1    900  7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L HEADER_2X2 J10
+U 1 1 51313A27
+P 3400 3400
+F 0 "J10" H 3400 3550 60  0000 C CNN
+F 1 "HEADER_2X2" H 3400 3250 60  0000 C CNN
+	1    3400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L HEADER_16X2 J6
+U 1 1 513139D1
+P 2400 2050
+F 0 "J6" H 2400 2900 60  0000 C CNN
+F 1 "HEADER_16X2" H 2400 1200 60  0000 C CNN
+	1    2400 2050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2250 1300
+NoConn ~ 2250 1400
+NoConn ~ 2250 1500
+NoConn ~ 2250 1600
+NoConn ~ 2250 1700
+NoConn ~ 2250 1800
 $Comp
 L +5V #PWR01
 U 1 1 51312AAD
@@ -471,7 +522,7 @@ Text Notes 8050 4900 0    120  ~ 0
 MicroSD Connector
 Text GLabel 8350 5650 0    60   Input ~ 0
 CD
-Text GLabel 2000 2700 0    60   Input ~ 0
+Text GLabel 2700 2700 2    60   Input ~ 0
 CD
 $Comp
 L HEADER_7 J15
@@ -488,7 +539,7 @@ Text GLabel 8450 5950 0    60   Input ~ 0
 SCK
 Text GLabel 8350 5750 0    60   Output ~ 0
 MISO
-Text GLabel 2750 2700 2    60   Input ~ 0
+Text GLabel 2100 2700 0    60   Input ~ 0
 CS
 Text GLabel 8400 6250 0    60   Input ~ 0
 CS
@@ -524,14 +575,6 @@ NoConn ~ 2550 1600
 NoConn ~ 2550 1500
 NoConn ~ 2550 1400
 NoConn ~ 2550 1300
-NoConn ~ 2550 1200
-NoConn ~ 2250 1200
-NoConn ~ 2250 1300
-NoConn ~ 2250 1400
-NoConn ~ 2250 1500
-NoConn ~ 2250 1600
-NoConn ~ 2250 1700
-NoConn ~ 2250 1800
 NoConn ~ 2250 1900
 NoConn ~ 2250 2000
 NoConn ~ 2250 2100
@@ -861,15 +904,6 @@ RFU1
 Text Label 3350 2900 0    60   ~ 0
 RAMPS_VCC
 $Comp
-L HEADER_2 J10
-U 1 1 512E96F5
-P 3400 3250
-F 0 "J10" H 3400 3400 60  0000 C CNN
-F 1 "HEADER_2" H 3400 3100 60  0000 C CNN
-	1    3400 3250
-	0    1    1    0   
-$EndComp
-$Comp
 L HEADER_8 J14
 U 1 1 512E96E7
 P 5250 4200
@@ -907,7 +941,7 @@ F 1 "HEADER_8" H 3900 1150 60  0000 C CNN
 $EndComp
 Text Notes 4200 900  0    120  ~ 0
 To RAMPS
-Text Notes 700  7250 0    60   ~ 0
+Text Notes 700  7500 0    60   ~ 0
 Note: This header\ngoes at the top\nof the 2X18 on\nthe Due
 $Comp
 L GND #PWR018
@@ -938,20 +972,11 @@ X
 $Comp
 L +5V #PWR020
 U 1 1 512E9541
-P 800 6750
-F 0 "#PWR020" H 800 6840 20  0001 C CNN
-F 1 "+5V" H 800 6840 30  0000 C CNN
-	1    800  6750
+P 900 6750
+F 0 "#PWR020" H 900 6840 20  0001 C CNN
+F 1 "+5V" H 900 6840 30  0000 C CNN
+	1    900  6750
 	1    0    0    -1  
-$EndComp
-$Comp
-L HEADER_2 J1
-U 1 1 512E951A
-P 800 7000
-F 0 "J1" H 800 7150 60  0000 C CNN
-F 1 "HEADER_2" H 800 6850 60  0000 C CNN
-	1    800  7000
-	0    1    1    0   
 $EndComp
 $Comp
 L HEADER_3X2 J2
@@ -1126,15 +1151,6 @@ Text GLabel 1050 1250 0    60   Output ~ 0
 X_STEP
 Text Notes 1200 900  0    120  ~ 0
 Unaltered Headers
-$Comp
-L HEADER_17X2 J6
-U 1 1 512E8F43
-P 2400 2000
-F 0 "J6" H 2400 2900 60  0000 C CNN
-F 1 "HEADER_17X2" H 2400 1100 60  0000 C CNN
-	1    2400 2000
-	1    0    0    -1  
-$EndComp
 $Comp
 L HEADER_8 J5
 U 1 1 512E8F1A
