@@ -7,7 +7,7 @@ Num	Ref		Name			Digikey Num
 1x	J2 		3x2 Thru HEADER --	S7071-ND
 3x	J3,J8,J9	8x1 SM Pins --		S1013E-08-ND
 2x	J4,J5 		8x1 Long Header --	have
-1x	J6 		16x2 Long Header --	SAM1204-08-ND
+1x	J6 		16x2 Long Header --	SAM1204-16-ND
 1x	J7		10x1 SM Pins --		S1013E-10-ND
 1x	J10 		2x2 SM Header --	S5672-ND
 3x	J11,J13,J14 	8x1 SM Header --	SAM1148-08-ND
