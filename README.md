@@ -14,4 +14,4 @@ This board will make the following conversions:
 
 NB
 --
-Please note that this is not yet tested. This readme will be updated once testing has been done, so if you still see this message, assume that the current board will break your precious Due.
+Initial tests completed and the board works properly. All MOSFETs open fully, all motor controllers step properly, and all endstops read properly, with both mechanical and Hall-Theta sensors. Watch the test here: http://youtu.be/WANil9Fsz-o
