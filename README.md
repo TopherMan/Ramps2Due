@@ -15,3 +15,7 @@ This board will make the following conversions:
 NB
 --
 Initial tests completed and the board works properly. All MOSFETs open fully, all motor controllers step properly, and all endstops read properly, with both mechanical and Hall-Theta sensors. Watch the test here: http://youtu.be/WANil9Fsz-o
+
+Assembly Hints
+--------------
+The small pitch of the chips require reflow. I recommend first attaching the FETs, resistors, capacitors, and level shifter and reflowing, following with desoldering braid to fix inevitable bridges. After the ICs are properly attached, you can add the through-hole headers. Note that on J6 (the 16x2 header) the top edge closest to the SM 2x2 header needs to be sanded down a bit so that the 2x2 and the 16x2 fit close enough together. Once the through-hole headers are attached, place the SM pins into the Due (or a Mega) and place the board on top. The through-hole pins will act as aligners so that the SM pin legs should be over the pads on the board. Solder all the pins you can reach, and then CAREFULLY remove the board from the Arduino, and get the inside legs. Repeat similarly with the female headers in the RAMPS. Upon completion, test it out. Note that for the gates to work properly, the RAMPS needs to be connected to 12V and needs to have the diode D1 installed; that 12V is utilized by the Ramps2Due MOSFETs to open the RAMPS MOSFETS.
